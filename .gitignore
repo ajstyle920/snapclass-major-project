@@ -12,3 +12,7 @@ venv/
 
 
 dist/
+
+# eval: downloaded dataset, model weights and embedding caches are never committed
+eval/data/
+eval/cache/
