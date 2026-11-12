@@ -7,6 +7,7 @@
 # facenet-pytorch pins old torch/Pillow versions that no longer build on new
 # Python versions, so it is installed separately without its dependency pins.
 # Versions below are the ones the published results were produced with (Python 3.13, CPU).
+# eval/check_app.py imports the app's face pipeline, so it also needs the root requirements.txt.
 
 numpy==2.5.4
 pandas==3.1.1
@@ -15,7 +16,7 @@ matplotlib==3.11.2
 pillow==13.0.0
 opencv-python-headless==5.0.0.93
 
-# current app model
+# model used by the app
 dlib-bin==20.0.1.post1
 git+https://github.com/ageitgey/face_recognition_models
 setuptools==78.1.0  # face_recognition_models needs pkg_resources

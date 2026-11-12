@@ -1,5 +1,5 @@
 model,face found in single photos,median seconds per photo (CPU),embedding size
-dlib (current app),1.0,0.22642304949999925,128
+dlib,1.0,0.22642304949999925,128
 FaceNet,1.0,0.10889249550001523,512
 InsightFace small,1.0,0.043388369500007684,512
 InsightFace large,1.0,0.5596569435000447,512
