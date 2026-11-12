@@ -34,6 +34,7 @@ Take attendance for an entire class from **a single photo** or **a short voice r
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
+- [Evaluation and Benchmarks](#evaluation-and-benchmarks)
 - [Design Decisions](#design-decisions)
 - [Limitations and Roadmap](#limitations-and-roadmap)
 
@@ -102,7 +103,7 @@ flowchart LR
 | **Alignment** | A 68-point shape predictor locates the eyes, nose, mouth, and jawline to normalise pose. |
 | **Embedding** | dlib's pretrained ResNet model (`face_recognition_model_v1`) outputs a **128-dimensional** face descriptor. |
 | **Classification** | A **linear SVM** (`scikit-learn`, `class_weight='balanced'`) is trained on all stored student embeddings and predicts the most likely identity. |
-| **Open-set verification** | The predicted student's stored embedding is compared by **Euclidean distance**. Only matches within **0.6** (dlib's recommended threshold) are accepted, so strangers are not misidentified. |
+| **Open-set verification** | The predicted student's stored embedding is compared by **Euclidean distance**. Only matches within **0.6** (dlib's recommended threshold) are accepted, which rejects most unknown faces. The [benchmark](#evaluation-and-benchmarks) measures how well this works. |
 | **Caching** | Models and the trained classifier are cached with `@st.cache_resource`, and the classifier is retrained automatically when a new student registers. |
 
 The same pipeline powers **FaceID login**, which requires exactly one face in the frame.
@@ -274,6 +275,11 @@ create table attendance_logs (
 snapclass/
 ├── app.py                          # Entry point: page config, routing, QR deep-link handling
 ├── requirements.txt
+├── eval/                           # Face recognition benchmark (not used by the app)
+│   ├── README.md                   # Method, results and findings
+│   ├── models.py                   # dlib, FaceNet and InsightFace behind one interface
+│   ├── evaluate.py                 # Metrics, tables and plots
+│   └── results/                    # Result tables (.md, .csv) and plots (.png)
 └── src/
     ├── database/
     │   ├── config.py               # Supabase client (reads Streamlit secrets)
@@ -357,10 +363,38 @@ The app opens at `http://localhost:8501`.
 
 ---
 
+## Evaluation and Benchmarks
+
+The face pipeline was benchmarked on the public [Georgia Tech Face Database](https://www.anefian.com/research/face_reco.htm) (50 people, 748 unique photos) and compared with FaceNet and InsightFace (ArcFace). The protocol mirrors the app: each student is enrolled from **one photo**, and the system must also reject people who were never registered. Thresholds are tuned on one half of the people and tested on the other half, over 10 runs.
+
+| Pipeline | Registered students correctly identified | Strangers wrongly accepted | Time per photo (CPU) |
+|---|---|---|---|
+| **Current app** (dlib, threshold 0.6) | 99.96% | 29.6% | 226 ms |
+| dlib, threshold 0.50 | 99.0% | 9.5% | 226 ms |
+| FaceNet (tuned threshold) | 99.6% | 7.0% | 109 ms |
+| **InsightFace ArcFace, small** (tuned threshold) | **100%** | **0%** | **43 ms** |
+| InsightFace ArcFace, large (tuned threshold) | 100% | 0% | 560 ms |
+
+<p align="center">
+  <img src="eval/results/threshold_sweep_dlib_hog.png" width="48%" alt="Threshold sweep for the current app" />
+  <img src="eval/results/class_size_effect.png" width="48%" alt="Stranger acceptance against class size" />
+</p>
+
+**What the benchmark showed**
+
+- **Registered students are recognised almost perfectly**, but dlib's default threshold of 0.6 is too loose for rejecting strangers. It was designed for comparing one pair of faces, while the app compares each face with every registered student.
+- **Stranger acceptance grows with class size:** 11% with 5 registered students, 37% with 35.
+- **The SVM is redundant.** With one enrollment photo per student it made the same prediction as nearest-neighbour matching on all 3,560 test photos, so the distance check does all the work.
+- **InsightFace's small ArcFace model** separated students from strangers perfectly on this dataset and ran about 5× faster than dlib on CPU.
+
+These results come from a small, clean research dataset, so they compare models under identical conditions and do not predict accuracy in a real classroom. Method, full results, limitations and steps to reproduce are in [`eval/README.md`](eval/README.md).
+
+---
+
 ## Design Decisions
 
 - **Pretrained embeddings over custom training:** using a pretrained face encoder and speaker encoder gives strong accuracy with **one sample per student** and no GPU training.
-- **Classifier plus distance threshold:** an SVM alone always predicts one of the known students. Adding a distance check turns this into **open-set recognition**, so unknown faces are rejected rather than mislabelled.
+- **Classifier plus distance threshold:** an SVM alone always predicts one of the known students. Adding a distance check turns this into **open-set recognition**, so a face that is not close enough to the predicted student is rejected. The benchmark later showed that the distance check does all the work and the SVM can be removed.
 - **Embeddings only:** no photos or recordings are persisted, reducing storage and protecting student privacy.
 - **Subject-scoped voice matching:** comparing voices only against students enrolled in the selected subject shrinks the search space and reduces false matches.
 - **Human in the loop:** AI output is always reviewed by the teacher before it is saved.
@@ -375,7 +409,10 @@ The app opens at `http://localhost:8501`.
 | No liveness check (a printed photo could pass face login) | Add liveness / anti-spoofing detection (blink or depth cues) |
 | One face embedding per student | Store multiple embeddings across angles and lighting |
 | Overlapping speakers merge into one audio segment | Speaker diarization for simultaneous speech |
-| Fixed recognition thresholds | Tune thresholds on a labelled validation set (FAR/FRR analysis) |
+| Face threshold 0.6 accepts about 30% of strangers in the benchmark | Lower it towards 0.5, or move to InsightFace ArcFace (requires re-enrolling students) |
+| SVM adds retraining cost but no accuracy | Replace it with nearest-neighbour matching |
+| Faces are matched against every student in the database | Match only against students enrolled in the selected subject |
+| Benchmark uses a small research dataset; voice is not evaluated | Evaluate on classroom photos collected with consent, and benchmark the voice pipeline |
 | Linear scan over stored embeddings | Vector search with `pgvector` for large institutions |
 | Timestamps stored in server time | Timezone-aware timestamps |
 | Open database access through the app key | Supabase Row Level Security policies |

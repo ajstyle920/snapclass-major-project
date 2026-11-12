@@ -1,0 +1,28 @@
+# Extra libraries for the benchmark in eval/. NOT needed to run the SnapClass app,
+# and intentionally kept out of the root requirements.txt so the deployed app stays light.
+#
+#   pip install -r eval/requirements-eval.txt
+#   pip install --no-deps facenet-pytorch==2.6.0
+#
+# facenet-pytorch pins old torch/Pillow versions that no longer build on new
+# Python versions, so it is installed separately without its dependency pins.
+# Versions below are the ones the published results were produced with (Python 3.13, CPU).
+
+numpy==2.5.4
+pandas==3.1.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+pillow==13.0.0
+opencv-python-headless==5.0.0.93
+
+# current app model
+dlib-bin==20.0.1.post1
+git+https://github.com/ageitgey/face_recognition_models
+setuptools==78.1.0  # face_recognition_models needs pkg_resources
+
+# compared models
+insightface==2.1
+onnxruntime==1.31.1
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.15.0
+torchvision==0.29.2
