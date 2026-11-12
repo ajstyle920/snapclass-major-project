@@ -1,7 +1,7 @@
 """Match face embeddings against enrolled students.
 
 Kept free of Streamlit and database imports so the exact logic the app uses
-can be run directly on a benchmark dataset (see eval/check_app_matching.py).
+can be run directly on a benchmark dataset (see eval/check_app.py).
 """
 import numpy as np
 
