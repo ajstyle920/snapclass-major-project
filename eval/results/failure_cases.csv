@@ -1,0 +1,434 @@
+system,seed,fold,image_id,true_person,registered,nearest_student,distance,outcome
+"v1 app (SVM, threshold 0.6)",0,0,s18/10,s18,True,s16,0.4881,registered student matched to wrong student
+"v1 app (SVM, threshold 0.6)",0,0,s34/01,s34,False,s29,0.5817,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,0,s34/02,s34,False,s29,0.5913,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,0,s34/03,s34,False,s29,0.5847,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,0,s34/04,s34,False,s29,0.5699,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,0,s34/05,s34,False,s29,0.5844,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,0,s34/06,s34,False,s29,0.5938,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,0,s34/07,s34,False,s29,0.5922,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,0,s34/08,s34,False,s29,0.5602,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,0,s34/09,s34,False,s29,0.5777,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,0,s34/10,s34,False,s29,0.5928,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,0,s34/13,s34,False,s29,0.5812,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,0,s34/14,s34,False,s29,0.5604,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,0,s42/04,s42,False,s26,0.5909,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,0,s42/06,s42,False,s26,0.5964,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,0,s42/07,s42,False,s26,0.5975,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,0,s42/08,s42,False,s26,0.5823,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,0,s42/10,s42,False,s26,0.5828,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,0,s42/14,s42,False,s26,0.5987,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s03/01,s03,False,s02,0.5849,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s04/02,s04,False,s44,0.5837,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s04/03,s04,False,s44,0.5605,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s04/06,s04,False,s44,0.5764,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s04/10,s04,False,s44,0.5845,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s04/14,s04,False,s17,0.6,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s11/02,s11,False,s23,0.5681,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s11/03,s11,False,s23,0.5739,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s27/01,s27,False,s44,0.5221,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s27/02,s27,False,s44,0.5019,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s27/03,s27,False,s44,0.5188,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s27/04,s27,False,s44,0.4937,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s27/05,s27,False,s44,0.5217,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s27/06,s27,False,s44,0.498,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s27/07,s27,False,s44,0.4914,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s27/08,s27,False,s44,0.511,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s27/09,s27,False,s39,0.5169,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s27/10,s27,False,s44,0.5152,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s27/11,s27,False,s44,0.5124,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s27/12,s27,False,s44,0.5032,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s27/13,s27,False,s44,0.5027,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s27/14,s27,False,s44,0.4664,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",0,1,s27/15,s27,False,s44,0.5078,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s27/01,s27,False,s44,0.5118,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s27/02,s27,False,s44,0.495,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s27/03,s27,False,s44,0.5088,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s27/04,s27,False,s44,0.4808,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s27/05,s27,False,s40,0.517,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s27/06,s27,False,s44,0.5049,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s27/07,s27,False,s44,0.4936,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s27/08,s27,False,s40,0.5285,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s27/09,s27,False,s44,0.5087,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s27/10,s27,False,s40,0.5195,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s27/11,s27,False,s44,0.4862,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s27/12,s27,False,s44,0.4808,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s27/13,s27,False,s40,0.506,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s27/14,s27,False,s40,0.4599,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s27/15,s27,False,s44,0.4953,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s37/07,s37,False,s02,0.5857,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s37/11,s37,False,s02,0.5893,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s39/01,s39,False,s40,0.5153,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s39/02,s39,False,s40,0.4748,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s39/03,s39,False,s40,0.589,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s39/04,s39,False,s40,0.5146,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s39/05,s39,False,s40,0.423,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s39/06,s39,False,s40,0.4438,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s39/07,s39,False,s40,0.5034,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s39/08,s39,False,s40,0.4973,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s39/09,s39,False,s40,0.4356,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s39/10,s39,False,s40,0.4088,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s39/11,s39,False,s40,0.4189,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s39/12,s39,False,s40,0.4393,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s39/13,s39,False,s40,0.4669,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s39/14,s39,False,s40,0.4554,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s39/15,s39,False,s40,0.4683,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s47/01,s47,False,s40,0.4498,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s47/02,s47,False,s40,0.4572,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s47/03,s47,False,s44,0.5067,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s47/04,s47,False,s40,0.4735,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s47/05,s47,False,s40,0.4337,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s47/06,s47,False,s40,0.4216,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s47/07,s47,False,s40,0.4902,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s47/08,s47,False,s40,0.475,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s47/09,s47,False,s40,0.4672,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s47/10,s47,False,s40,0.4358,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s47/11,s47,False,s40,0.4971,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s47/12,s47,False,s40,0.453,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s47/13,s47,False,s40,0.4499,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s47/14,s47,False,s40,0.4443,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,0,s47/15,s47,False,s40,0.4399,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s08/11,s08,False,s48,0.5906,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s23/01,s23,False,s31,0.579,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s23/02,s23,False,s31,0.5892,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s23/03,s23,False,s31,0.594,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s23/05,s23,False,s48,0.5855,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s23/06,s23,False,s31,0.5897,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s23/10,s23,False,s31,0.566,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s23/11,s23,False,s31,0.5979,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s23/12,s23,False,s31,0.5949,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s23/14,s23,False,s31,0.5996,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s23/15,s23,False,s31,0.5907,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s29/02,s29,False,s31,0.5961,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s29/03,s29,False,s31,0.5839,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s29/05,s29,False,s31,0.5911,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s29/06,s29,False,s31,0.5874,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s29/07,s29,False,s31,0.599,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s29/11,s29,False,s31,0.5944,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s30/01,s30,False,s21,0.5399,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s30/02,s30,False,s21,0.5483,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s30/03,s30,False,s21,0.5457,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s30/04,s30,False,s21,0.5089,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s30/05,s30,False,s21,0.509,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s30/06,s30,False,s21,0.5931,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s30/07,s30,False,s21,0.5451,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s30/08,s30,False,s21,0.567,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s30/09,s30,False,s21,0.5565,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s30/10,s30,False,s21,0.5826,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s30/11,s30,False,s21,0.5657,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s30/12,s30,False,s21,0.5453,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s30/13,s30,False,s21,0.5569,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s30/14,s30,False,s21,0.5493,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s30/15,s30,False,s21,0.5417,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s50/01,s50,False,s16,0.5525,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s50/02,s50,False,s16,0.4927,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s50/03,s50,False,s16,0.5119,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s50/04,s50,False,s16,0.5202,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s50/05,s50,False,s21,0.5209,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s50/06,s50,False,s16,0.5061,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s50/07,s50,False,s16,0.5562,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s50/08,s50,False,s16,0.5996,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s50/09,s50,False,s16,0.5317,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s50/10,s50,False,s16,0.5655,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s50/11,s50,False,s16,0.5231,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s50/12,s50,False,s16,0.5411,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s50/13,s50,False,s16,0.5416,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s50/14,s50,False,s16,0.518,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",1,1,s50/15,s50,False,s16,0.5581,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s30/01,s30,False,s21,0.5423,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s30/02,s30,False,s21,0.56,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s30/03,s30,False,s44,0.5545,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s30/04,s30,False,s21,0.5281,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s30/05,s30,False,s21,0.5136,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s30/06,s30,False,s21,0.5711,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s30/07,s30,False,s21,0.5595,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s30/08,s30,False,s21,0.5657,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s30/09,s30,False,s21,0.564,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s30/10,s30,False,s44,0.553,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s30/11,s30,False,s21,0.5596,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s30/12,s30,False,s21,0.5546,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s30/13,s30,False,s21,0.545,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s30/14,s30,False,s21,0.5642,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s30/15,s30,False,s21,0.5553,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s31/03,s31,False,s23,0.5693,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s31/04,s31,False,s23,0.5554,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s31/06,s31,False,s23,0.5888,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s31/11,s31,False,s23,0.5897,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s31/13,s31,False,s23,0.5885,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,0,s31/14,s31,False,s23,0.5838,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s04/14,s04,False,s46,0.5922,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s27/01,s27,False,s47,0.4463,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s27/02,s27,False,s47,0.4294,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s27/03,s27,False,s47,0.4655,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s27/04,s27,False,s47,0.4615,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s27/05,s27,False,s47,0.4643,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s27/06,s27,False,s47,0.4536,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s27/07,s27,False,s47,0.4618,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s27/08,s27,False,s47,0.4657,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s27/09,s27,False,s47,0.4872,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s27/10,s27,False,s47,0.4491,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s27/11,s27,False,s47,0.4647,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s27/12,s27,False,s47,0.4744,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s27/13,s27,False,s47,0.4677,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s27/14,s27,False,s47,0.443,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s27/15,s27,False,s47,0.4486,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s28/10,s28,False,s06,0.575,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s39/01,s39,False,s17,0.4714,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s39/02,s39,False,s17,0.443,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s39/03,s39,False,s17,0.4888,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s39/04,s39,False,s17,0.4319,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s39/05,s39,False,s47,0.4318,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s39/06,s39,False,s47,0.5046,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s39/07,s39,False,s47,0.5025,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s39/08,s39,False,s47,0.4369,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s39/09,s39,False,s47,0.4008,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s39/10,s39,False,s47,0.4134,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s39/11,s39,False,s47,0.4257,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s39/12,s39,False,s47,0.425,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s39/13,s39,False,s17,0.4374,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s39/14,s39,False,s47,0.4248,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s39/15,s39,False,s17,0.3867,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s40/01,s40,False,s47,0.487,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s40/02,s40,False,s17,0.5382,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s40/03,s40,False,s47,0.5566,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s40/04,s40,False,s17,0.4911,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s40/05,s40,False,s47,0.4769,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s40/06,s40,False,s17,0.4299,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s40/07,s40,False,s47,0.5531,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s40/08,s40,False,s47,0.4745,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s40/09,s40,False,s47,0.4514,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s40/10,s40,False,s47,0.4879,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s40/11,s40,False,s47,0.4498,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s40/12,s40,False,s17,0.4774,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s40/13,s40,False,s47,0.4866,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s40/14,s40,False,s17,0.4827,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",2,1,s40/15,s40,False,s17,0.5279,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",3,0,s25/09,s25,False,s09,0.5902,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",3,1,s03/01,s03,False,s02,0.5947,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",3,1,s23/11,s23,False,s29,0.5986,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",3,1,s44/01,s44,False,s04,0.5512,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",3,1,s44/02,s44,False,s04,0.5074,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",3,1,s44/03,s44,False,s04,0.5205,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",3,1,s44/04,s44,False,s04,0.5045,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",3,1,s44/05,s44,False,s04,0.5003,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",3,1,s44/06,s44,False,s04,0.4967,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",3,1,s44/07,s44,False,s04,0.4986,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",3,1,s44/08,s44,False,s04,0.5718,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",3,1,s44/09,s44,False,s04,0.5503,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",3,1,s44/10,s44,False,s47,0.5437,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",3,1,s44/11,s44,False,s04,0.5363,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",3,1,s44/12,s44,False,s04,0.5379,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",3,1,s44/13,s44,False,s47,0.5571,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",3,1,s44/14,s44,False,s47,0.5439,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",3,1,s44/15,s44,False,s47,0.5759,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s21/01,s21,False,s47,0.5711,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s21/02,s21,False,s47,0.5326,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s21/03,s21,False,s47,0.5792,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s21/04,s21,False,s47,0.5278,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s21/05,s21,False,s47,0.5323,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s21/06,s21,False,s47,0.4583,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s21/07,s21,False,s47,0.4807,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s21/08,s21,False,s47,0.5186,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s21/09,s21,False,s47,0.4739,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s21/10,s21,False,s47,0.4787,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s21/11,s21,False,s47,0.4694,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s21/12,s21,False,s47,0.4785,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s21/13,s21,False,s47,0.4723,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s21/14,s21,False,s47,0.478,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s21/15,s21,False,s47,0.4976,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s23/10,s23,False,s31,0.5965,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s30/01,s30,False,s16,0.583,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s30/02,s30,False,s16,0.5947,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s30/04,s30,False,s16,0.5877,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s30/05,s30,False,s16,0.553,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s30/10,s30,False,s16,0.593,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s30/12,s30,False,s16,0.5848,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s30/13,s30,False,s16,0.5643,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s30/14,s30,False,s16,0.5947,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s44/01,s44,False,s16,0.5748,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s44/02,s44,False,s18,0.5355,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s44/03,s44,False,s47,0.5263,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s44/04,s44,False,s18,0.5449,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s44/05,s44,False,s18,0.58,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s44/06,s44,False,s47,0.5524,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s44/07,s44,False,s47,0.5329,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s44/08,s44,False,s18,0.5787,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s44/09,s44,False,s18,0.556,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s44/10,s44,False,s18,0.5347,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s44/11,s44,False,s18,0.5472,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s44/12,s44,False,s47,0.5476,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s44/13,s44,False,s18,0.5522,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s44/14,s44,False,s47,0.5518,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,0,s44/15,s44,False,s16,0.5672,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s02/02,s02,False,s12,0.5874,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s02/03,s02,False,s12,0.5944,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s02/05,s02,False,s12,0.5942,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s02/06,s02,False,s12,0.5782,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s02/07,s02,False,s29,0.5837,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s02/08,s02,False,s29,0.5953,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s02/13,s02,False,s12,0.5951,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s27/01,s27,False,s39,0.5415,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s27/02,s27,False,s50,0.5245,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s27/03,s27,False,s50,0.5735,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s27/04,s27,False,s50,0.5449,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s27/05,s27,False,s39,0.5532,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s27/06,s27,False,s50,0.5478,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s27/07,s27,False,s39,0.5536,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s27/08,s27,False,s39,0.5426,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s27/09,s27,False,s39,0.5455,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s27/10,s27,False,s39,0.5455,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s27/11,s27,False,s39,0.5387,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s27/12,s27,False,s39,0.555,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s27/13,s27,False,s50,0.5496,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s27/14,s27,False,s39,0.5005,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s27/15,s27,False,s50,0.541,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s34/04,s34,False,s29,0.5972,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s34/08,s34,False,s29,0.597,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s34/10,s34,False,s11,0.5941,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s34/13,s34,False,s29,0.5894,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s34/15,s34,False,s11,0.5972,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s40/01,s40,False,s17,0.4995,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s40/02,s40,False,s39,0.5144,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s40/03,s40,False,s39,0.529,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s40/04,s40,False,s17,0.4786,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s40/05,s40,False,s39,0.4481,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s40/06,s40,False,s17,0.4202,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s40/07,s40,False,s17,0.5768,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s40/08,s40,False,s39,0.4696,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s40/09,s40,False,s17,0.4655,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s40/10,s40,False,s17,0.4896,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s40/11,s40,False,s39,0.4356,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s40/12,s40,False,s17,0.4558,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s40/13,s40,False,s17,0.4944,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s40/14,s40,False,s17,0.4692,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s40/15,s40,False,s17,0.5174,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s48/03,s48,False,s35,0.5318,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s48/05,s48,False,s35,0.5948,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s48/06,s48,False,s35,0.5423,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s48/07,s48,False,s35,0.5344,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s48/10,s48,False,s35,0.5835,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s48/11,s48,False,s35,0.5687,stranger accepted as a student
+"v1 app (SVM, threshold 0.6)",4,1,s48/12,s48,False,s35,0.568,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",0,0,s14/09,s14,True,s14,0.5028,registered student rejected
+"v2 app (nearest match, threshold 0.5)",0,0,s18/10,s18,True,s16,0.4881,registered student matched to wrong student
+"v2 app (nearest match, threshold 0.5)",0,0,s49/03,s49,True,s49,0.5145,registered student rejected
+"v2 app (nearest match, threshold 0.5)",0,1,s19/03,s19,True,s19,0.5655,registered student rejected
+"v2 app (nearest match, threshold 0.5)",0,1,s27/04,s27,False,s44,0.4937,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",0,1,s27/06,s27,False,s44,0.498,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",0,1,s27/07,s27,False,s44,0.4914,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",0,1,s27/14,s27,False,s44,0.4664,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s11/11,s11,True,s11,0.5041,registered student rejected
+"v2 app (nearest match, threshold 0.5)",1,0,s14/09,s14,True,s14,0.5298,registered student rejected
+"v2 app (nearest match, threshold 0.5)",1,0,s27/02,s27,False,s44,0.495,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s27/04,s27,False,s44,0.4808,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s27/07,s27,False,s44,0.4936,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s27/11,s27,False,s44,0.4862,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s27/12,s27,False,s44,0.4808,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s27/14,s27,False,s40,0.4599,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s27/15,s27,False,s44,0.4953,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s39/02,s39,False,s40,0.4748,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s39/05,s39,False,s40,0.423,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s39/06,s39,False,s40,0.4438,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s39/08,s39,False,s40,0.4973,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s39/09,s39,False,s40,0.4356,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s39/10,s39,False,s40,0.4088,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s39/11,s39,False,s40,0.4189,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s39/12,s39,False,s40,0.4393,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s39/13,s39,False,s40,0.4669,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s39/14,s39,False,s40,0.4554,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s39/15,s39,False,s40,0.4683,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s45/11,s45,True,s45,0.5029,registered student rejected
+"v2 app (nearest match, threshold 0.5)",1,0,s45/13,s45,True,s45,0.5147,registered student rejected
+"v2 app (nearest match, threshold 0.5)",1,0,s45/15,s45,True,s45,0.5106,registered student rejected
+"v2 app (nearest match, threshold 0.5)",1,0,s47/01,s47,False,s40,0.4498,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s47/02,s47,False,s40,0.4572,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s47/04,s47,False,s40,0.4735,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s47/05,s47,False,s40,0.4337,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s47/06,s47,False,s40,0.4216,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s47/07,s47,False,s40,0.4902,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s47/08,s47,False,s40,0.475,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s47/09,s47,False,s40,0.4672,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s47/10,s47,False,s40,0.4358,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s47/11,s47,False,s40,0.4971,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s47/12,s47,False,s40,0.453,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s47/13,s47,False,s40,0.4499,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s47/14,s47,False,s40,0.4443,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,0,s47/15,s47,False,s40,0.4399,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",1,1,s49/12,s49,True,s49,0.516,registered student rejected
+"v2 app (nearest match, threshold 0.5)",1,1,s49/13,s49,True,s49,0.5279,registered student rejected
+"v2 app (nearest match, threshold 0.5)",1,1,s50/02,s50,False,s16,0.4927,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,0,s45/10,s45,True,s45,0.5022,registered student rejected
+"v2 app (nearest match, threshold 0.5)",2,1,s06/03,s06,True,s06,0.5519,registered student rejected
+"v2 app (nearest match, threshold 0.5)",2,1,s06/06,s06,True,s06,0.508,registered student rejected
+"v2 app (nearest match, threshold 0.5)",2,1,s08/11,s08,True,s08,0.5035,registered student rejected
+"v2 app (nearest match, threshold 0.5)",2,1,s11/11,s11,True,s11,0.5041,registered student rejected
+"v2 app (nearest match, threshold 0.5)",2,1,s27/01,s27,False,s47,0.4463,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s27/02,s27,False,s47,0.4294,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s27/03,s27,False,s47,0.4655,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s27/04,s27,False,s47,0.4615,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s27/05,s27,False,s47,0.4643,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s27/06,s27,False,s47,0.4536,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s27/07,s27,False,s47,0.4618,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s27/08,s27,False,s47,0.4657,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s27/09,s27,False,s47,0.4872,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s27/10,s27,False,s47,0.4491,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s27/11,s27,False,s47,0.4647,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s27/12,s27,False,s47,0.4744,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s27/13,s27,False,s47,0.4677,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s27/14,s27,False,s47,0.443,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s27/15,s27,False,s47,0.4486,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s39/01,s39,False,s17,0.4714,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s39/02,s39,False,s17,0.443,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s39/03,s39,False,s17,0.4888,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s39/04,s39,False,s17,0.4319,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s39/05,s39,False,s47,0.4318,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s39/08,s39,False,s47,0.4369,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s39/09,s39,False,s47,0.4008,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s39/10,s39,False,s47,0.4134,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s39/11,s39,False,s47,0.4257,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s39/12,s39,False,s47,0.425,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s39/13,s39,False,s17,0.4374,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s39/14,s39,False,s47,0.4248,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s39/15,s39,False,s17,0.3867,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s40/01,s40,False,s47,0.487,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s40/04,s40,False,s17,0.4911,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s40/05,s40,False,s47,0.4769,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s40/06,s40,False,s17,0.4299,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s40/08,s40,False,s47,0.4745,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s40/09,s40,False,s47,0.4514,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s40/10,s40,False,s47,0.4879,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s40/11,s40,False,s47,0.4498,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s40/12,s40,False,s17,0.4774,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s40/13,s40,False,s47,0.4866,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",2,1,s40/14,s40,False,s17,0.4827,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",3,0,s45/04,s45,True,s45,0.5083,registered student rejected
+"v2 app (nearest match, threshold 0.5)",3,0,s45/06,s45,True,s45,0.5022,registered student rejected
+"v2 app (nearest match, threshold 0.5)",3,1,s19/03,s19,True,s19,0.5655,registered student rejected
+"v2 app (nearest match, threshold 0.5)",3,1,s42/08,s42,True,s42,0.5115,registered student rejected
+"v2 app (nearest match, threshold 0.5)",3,1,s44/06,s44,False,s04,0.4967,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",3,1,s44/07,s44,False,s04,0.4986,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,0,s06/02,s06,True,s06,0.5197,registered student rejected
+"v2 app (nearest match, threshold 0.5)",4,0,s06/09,s06,True,s06,0.541,registered student rejected
+"v2 app (nearest match, threshold 0.5)",4,0,s21/06,s21,False,s47,0.4583,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,0,s21/07,s21,False,s47,0.4807,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,0,s21/09,s21,False,s47,0.4739,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,0,s21/10,s21,False,s47,0.4787,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,0,s21/11,s21,False,s47,0.4694,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,0,s21/12,s21,False,s47,0.4785,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,0,s21/13,s21,False,s47,0.4723,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,0,s21/14,s21,False,s47,0.478,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,0,s21/15,s21,False,s47,0.4976,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,1,s19/03,s19,True,s19,0.5655,registered student rejected
+"v2 app (nearest match, threshold 0.5)",4,1,s40/01,s40,False,s17,0.4995,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,1,s40/04,s40,False,s17,0.4786,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,1,s40/05,s40,False,s39,0.4481,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,1,s40/06,s40,False,s17,0.4202,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,1,s40/08,s40,False,s39,0.4696,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,1,s40/09,s40,False,s17,0.4655,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,1,s40/10,s40,False,s17,0.4896,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,1,s40/11,s40,False,s39,0.4356,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,1,s40/12,s40,False,s17,0.4558,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,1,s40/13,s40,False,s17,0.4944,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,1,s40/14,s40,False,s17,0.4692,stranger accepted as a student
+"v2 app (nearest match, threshold 0.5)",4,1,s42/08,s42,True,s42,0.5115,registered student rejected
+"v2 app (nearest match, threshold 0.5)",4,1,s45/07,s45,True,s45,0.5106,registered student rejected

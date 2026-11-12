@@ -3,9 +3,10 @@
 Every model takes an RGB image (H x W x 3, uint8) and returns one `Face` per
 detected face: its bounding box and its embedding vector.
 
-`DlibHOG` reproduces the SnapClass app pipeline exactly
-(src/pipelines/face_pipeline.py): HOG detector with 1x upsampling, 68-point
-landmarks, dlib ResNet descriptor with num_jitters=1.
+`DlibHOG` reproduces how the SnapClass app turns a photo into embeddings
+(`get_face_embeddings` in src/pipelines/face_pipeline.py): HOG detector with 1x
+upsampling, 68-point landmarks, dlib ResNet descriptor with num_jitters=1.
+eval/check_app.py confirms the two produce identical embeddings.
 """
 from __future__ import annotations
 
@@ -43,8 +44,8 @@ class FaceModel:
 
 
 class DlibHOG(FaceModel):
-    """Current SnapClass pipeline: dlib HOG detector + 68 landmarks + ResNet (128-D)."""
-    name, label, metric, embedding_dim = "dlib_hog", "dlib HOG + ResNet (current app)", "euclidean", 128
+    """The app's embedding pipeline: dlib HOG detector + 68 landmarks + ResNet (128-D)."""
+    name, label, metric, embedding_dim = "dlib_hog", "dlib HOG + ResNet (used by the app)", "euclidean", 128
 
     def __init__(self, cnn_detector: bool = False):
         import dlib

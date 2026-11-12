@@ -1,5 +1,5 @@
 model,probes,same_prediction,agreement
-dlib (current app),3560,3560,1.0
+dlib,3560,3560,1.0
 FaceNet,3560,3560,1.0
 InsightFace small,3560,3560,1.0
 InsightFace large,3560,3560,1.0
